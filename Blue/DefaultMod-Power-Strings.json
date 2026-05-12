@@ -10,9 +10,8 @@
 	"kobeBlue:AutomationPower": {
 		"NAME": "Automation",
 		"DESCRIPTIONS": [
-			"Whenever you #yChannel an Orb, #yEvoke your leftmost Orb.",
-			"Whenever you #yChannel an Orb, #yEvoke #b",
-			" leftmost Orbs."
+			"Whenever an Orb is Channeled into an empty slot, trigger its passive #b",
+			" times."
 		]
 	},
 	

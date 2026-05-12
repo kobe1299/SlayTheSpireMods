@@ -24,7 +24,7 @@
   
   "kobeBlue:Arc": {
     "NAME": "Arc",
-    "DESCRIPTION": "Innate. NL Channel !M! Lightning. NL Exhaust."
+    "DESCRIPTION": "Channel up to !M! Lightning to fill your empty Orb slots."
   },
   
   "kobeBlue:CloakingShadows": {
@@ -36,8 +36,7 @@
   
   "kobeBlue:Debug": {
     "NAME": "Debug",
-    "DESCRIPTION": "Scry !M!. NL Exhaust !kobeBlue:SecondMagic! random Curse or Status in your discard pile.",
-    "UPGRADE_DESCRIPTION": "Scry !M!. NL Exhaust !kobeBlue:SecondMagic! random Curses or Statuses in your discard pile."
+    "DESCRIPTION": "Scry !M!. NL Exhaust a Curse or Status in your discard pile at random."
   },
   
   "kobeBlue:Hibernate": {
@@ -69,8 +68,8 @@
   
   "kobeBlue:Automation": {
     "NAME": "Automation",
-    "DESCRIPTION": "Ethereal. NL Gain !M! Focus. NL Whenever an Orb is Channeled, Evoke it.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Focus. NL Whenever an Orb is Channeled, Evoke it."
+    "DESCRIPTION": "Whenever an Orb is Channeled into an empty slot, trigger its passive twice.",
+    "UPGRADE_DESCRIPTION": "Whenever an Orb is Channeled into an empty slot, trigger its passive 3 times."
   },
   
   "kobeBlue:HeavyDuty": {
@@ -80,8 +79,8 @@
   
   "kobeBlue:TrialAndError": {
     "NAME": "Trial and Error",
-    "DESCRIPTION": "The first time you shuffle your draw pile each turn, gain !M! Strength and !M! Dexterity.",
-    "UPGRADE_DESCRIPTION": "The first time you shuffle your draw pile each turn, gain !M! Strength and !M! Dexterity. Scry !kobeBlue:SecondMagic!."
+    "DESCRIPTION": "The first time you shuffle each turn, gain !M! Strength and !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "Innate. NL The first time you shuffle each turn, gain !M! Strength and !M! Dexterity."
   },
   
   

@@ -2,8 +2,8 @@
 	
 	"kobeGreen:DeftStrike": {
 		"NAME": "Deft Strike",
-		"DESCRIPTION": "Deal !D! damage twice. NL Positive Dexterity increases the damage of this card.",
-		"UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Positive Dexterity increases the damage of this card."
+		"DESCRIPTION": "Deal !D! damage twice. NL Dexterity affects the damage of this card.",
+		"UPGRADE_DESCRIPTION": "Deal !D! damage twice. NL Dexterity affects the damage of this card twice."
 	},
 	
 	"kobeGreen:HuntDown": {
@@ -25,8 +25,7 @@
 	
 	"kobeGreen:Camouflage": {
 		"NAME": "Camouflage",
-		"DESCRIPTION": "You have 3 additional Dexterity until !M! more Skills are played.",
-		"UPGRADE_DESCRIPTION": "Gain !B! Block. NL You have 3 additional Dexterity until !M! more Skills are played."
+		"DESCRIPTION": "Gain !B! Block. NL You have 3 additional Dexterity until !M! more Skills are played."
 	},
 	
 	"kobeGreen:Improvise": {
@@ -47,7 +46,7 @@
 	
 	"kobeGreen:Poise": {
 		"NAME": "Poise",
-		"DESCRIPTION": "Gain !B! Block. NL Remove your Frail and negative Dexterity."
+		"DESCRIPTION": "Gain !B! Block. NL The next Skill you play costs 0."
 	},
 	
 	"kobeGreen:PoisonCocktail": {
@@ -76,19 +75,21 @@
 			" Weak"
 		]
 	},
-	
-	
-	
-	"kobeGreen:Adaptive": {
-		"NAME": "Adaptive",
-		"DESCRIPTION": "If you end your turn with more cards in your discard pile than in your draw pile, gain [G] next turn."
-	},
-	
+
+
+
 	"kobeGreen:Condition": {
 		"NAME": "Condition",
-		"DESCRIPTION": "Add !M! *Shivs into your hand. Whenever you discard a *Shiv, ALL enemies lose !kobeGreen:SecondMagic! Strength for 1 turn."
+		"DESCRIPTION": "Add !M! *Shivs into your hand. Whenever you discard a *Shiv, ALL enemies lose !kobeGreen:SecondMagic! Strength for 1 turn.",
+		"UPGRADE_DESCRIPTION": "Add !M! *Shivs+ into your hand. Whenever you discard a *Shiv, ALL enemies lose !kobeGreen:SecondMagic! Strength for 1 turn."
 	},
-	
+
+	"kobeGreen:Poltergeist": {
+		"NAME": "Poltergeist",
+		"DESCRIPTION": "Every other time you draw a 0-cost card, draw 1 card.",
+		"UPGRADE_DESCRIPTION": "Innate. Every other time you draw a 0-cost card, draw 1 card."
+	},
+
 	"kobeGreen:Unpredictable": {
 		"NAME": "Unpredictable",
 		"DESCRIPTION": "Gain !M! Dexterity. NL At the start of your turn, exchange your Strength and Dexterity."

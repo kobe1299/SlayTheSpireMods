@@ -1,10 +1,15 @@
 {
-	
+
 	"kobeGreen:CamouflagePower": {
 		"NAME": "Camouflage",
 		"DESCRIPTIONS": ["As long as you have #yCamouflage, you have #b3 additional #yDexterity. Lose #b1 #yCamouflage whenever you play a #ySkill."]
 	},
-	
+
+	"kobeGreen:FreeSkillPower": {
+		"NAME": "Free Skill Power",
+		"DESCRIPTIONS": ["Ignore energy cost on the next #ySkill you play."]
+	},
+
 	"kobeGreen:EnemyBufferPower": {
 		"NAME": "Buffer",
 		"DESCRIPTIONS": [
@@ -25,14 +30,6 @@
 	
 	
 	
-	"kobeGreen:AdaptivePower": {
-		"NAME": "Adaptive",
-		"DESCRIPTIONS": [
-			"If you end your turn with more cards in your discard pile than in your draw pile, gain ",
-			" next turn. Resolved before your hand is cleared."
-		]
-	},
-	
 	"kobeGreen:ConditionPower": {
 		"NAME": "Condition",
 		"DESCRIPTIONS": [
@@ -40,7 +37,12 @@
 			" Strength for #b1 turn."
 		]
 	},
-	
+
+	"kobeGreen:PoltergeistPower": {
+		"NAME": "Poltergeist",
+		"DESCRIPTIONS": ["Every other time you draw a 0-cost card, draw #b", " card.", " cards."]
+	},
+
 	"kobeGreen:UnpredictablePower": {
 		"NAME": "Unpredictable",
 		"DESCRIPTIONS": ["At the start of your turn, exchange your #yStrength and #yDexterity."]

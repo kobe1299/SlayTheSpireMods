@@ -20,12 +20,12 @@
 	
 	"kobePurple:Conundrum": {
 		"NAME": "Conundrum",
-		"DESCRIPTION": "If the enemy has Weak, apply !M! Vulnerable, otherwise apply !kobePurple:SecondMagic! Weak."
+		"DESCRIPTION": "Retain. NL If this card was Retained last turn, apply !kobePurple:SecondMagic! Weak and !M! Vulnerable."
 	},
 	
 	"kobePurple:EbbAndFlow": {
 		"NAME": "Ebb and Flow",
-		"DESCRIPTION": "Retain. NL Enter a random Stance. NL Exhaust."
+		"DESCRIPTION": "Enter a random Stance."
 	},
 	
 	"kobePurple:Ecstasy": {

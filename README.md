@@ -1,17 +1,9 @@
-Language files for these 4 Slay the Spire mods:
+Language files for these Slay the Spire mods:
   
-  Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
-  
-  Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
-  
-  Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
-  
-  Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
-
-Fork this, translate, and let me know once you are done. 
-
-If you need any further help, catch me on [Discord](https://discord.gg/GAnNc6d23Y).
-
+- Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
+- Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
+- Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
+- Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
 
 # Translation Guide
 
@@ -92,3 +84,11 @@ Power tooltips use different symbols from card descriptions:
 #b: Colored number (blue). You will often see this placed at the end of a string to color the following number.
 ```
 
+
+# Applying Localization
+
+Mods now support external language files and you can test and play without publishing your work. To use external files, locate the directory the mod is installed to, and place the three files in ```...\Steam\steamapps\workshop\content\[modID]\[language]``` ("kor" for Korean, "spa" for Spanish etc). Files must be UTF-8 encoded.
+
+If you wish to share your work, publish your language files and notify me. I'll add them to the main mod.
+
+If you need any further help, catch me on [Discord](https://discord.gg/GAnNc6d23Y).

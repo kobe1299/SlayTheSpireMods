@@ -37,8 +37,8 @@
   
   "kobeRed:Bloodbath": {
     "NAME": "Bloodbath",
-    "DESCRIPTION": "Add !kobeRed:SecondMagic! *Slimed into your hand. NL Gain [R] [R]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add !kobeRed:SecondMagic! *Slimed into your hand. NL Gain [R] [R] [R]. NL Exhaust."
+    "DESCRIPTION": "Add 1 *Slimed into your hand and discard pile. NL Gain [R] [R]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add 2 *Slimed into your hand. NL Gain [R] [R]. NL Exhaust."
   },
   
   "kobeRed:Bravado": {
@@ -49,7 +49,7 @@
   
   "kobeRed:Cautery": {
     "NAME": "Cautery",
-    "DESCRIPTION": "Add a *Burn+ on top of your draw pile. NL Gain !M! Regen. NL Exhaust."
+    "DESCRIPTION": "Shuffle a *Burn+ into your draw pile. NL Gain !M! Regen. NL Exhaust."
   },
   
   "kobeRed:Defiance": {
@@ -59,7 +59,7 @@
   
   "kobeRed:Hotheaded": {
     "NAME": "Hotheaded",
-    "DESCRIPTION": "Draw up to !kobeRed:SecondMagic! cards until their total cost reaches !M!.",
+    "DESCRIPTION": "Draw cards until their total cost reaches !M!. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Draw cards until their total cost reaches !M!."
   },
   
@@ -73,7 +73,7 @@
   
   "kobeRed:CriticalHit": {
     "NAME": "Critical Hit",
-    "DESCRIPTION": "Whenever you would deal !kobeRed:SecondMagic! attack damage or more, increase it by !M!."
+    "DESCRIPTION": "Attacks that deal !kobeRed:SecondMagic! damage or more deal !M! more."
   },
   
   

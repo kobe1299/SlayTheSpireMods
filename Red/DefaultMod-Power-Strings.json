@@ -8,7 +8,7 @@
 	
 	"kobeRed:CriticalHitPower": {
 		"NAME": "Critical Hit",
-		"DESCRIPTIONS": ["Whenever you would deal #b", " attack damage or more, increase it by #b", ". Applied before #yFlight and #yBlock."]
+		"DESCRIPTIONS": ["Attacks that deal #b", " damage or more deal #b", " more."]
 	},
 	
 	"kobeRed:PowerTripPower": {

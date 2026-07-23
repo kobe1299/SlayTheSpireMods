@@ -5,7 +5,7 @@ Language files for these Slay the Spire mods:
 - Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
 - Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
 
-# Translation Guide: Card Strings
+# Card Strings
 
 Information about card titles and descriptions is stored in the card strings file. A typical card looks like this:
 
@@ -45,11 +45,12 @@ Leave the dictionary keys (the first line and all caps strings) untouched, and t
 ## Base Game Keywords
 Special words such as Evoke and Block are called keywords. Format them properly so the game can recognize them, otherwise there will be no highlights or tooltips. They must be capitalized, and must be separated from the rest of the text with spaces, even in languages that normally do not use spaces.
 
-If a keyword consists of two words in your language, replace the space with \u00A0. ```Translated\u00A0Keyword```
+If a keyword consists of two words in your language, replace the space with \u00A0.
+Example: ```Translated\u00A0Keyword```
 
-# Translation Guide: Keyword Strings
+# Keyword Strings
 
-Modded keywords are defined in the keyword strings file. They work differently from base game keywords. The English version uses two of them because the text box was too small to explain everything in. If you can put all the information on the card description, do so. Just forget about keywords and leave the keyword file empty. On the other hand, you can create your own keywords if you need to.
+Modded keywords are defined in the keyword strings file and work differently from base game ones. The English version of this series uses two of them (Deck and Common) because the text box was too small. If you can put all the information on the card description, feel free to leave the keyword file empty. On the other hand, you can create your own keywords if you need to.
 
 You will need to translate PROPER_NAME, NAMES, and DESCRIPTION.
 
@@ -64,7 +65,7 @@ I actually know very little about how they work, so I'm just quoting the [templa
 > In Keyword-Strings.json you would have PROPER_NAME as A Long Keyword and the first element in NAMES be a long keyword, and the second element be a_long_keyword
 
 
-# Translation Guide: Power Strings
+# Power Strings
 
 The power strings file describes what to show on the buff/debuff tooltips. Each power tooltip consists of multiple strings so that the game can insert varying numbers between them. Since the order of those numbers can not be changed, you will need to adapt your translation to fit the English format.
 
@@ -80,7 +81,40 @@ Power tooltips use different symbols from card descriptions:
 
 # Applying Localization
 
-Mods now support external language files and you can test and play without publishing your work. To use external files, locate the directory the mod is installed to, and place the three files in ```...\Steam\steamapps\workshop\content\[modID]\[language]``` ("kor" for Korean, "spa" for Spanish etc). Files must be UTF-8 encoded.
+You can test your localization without publishing it.
 
-If you wish to share your work, publish your language files and notify me. I'll add them to the main mod.
+Locate the directory the mod is installed to, and place the three files in ```...\Steam\steamapps\workshop\content\[modID]\[language]```. Files must be UTF-8 encoded.
+
+Language code:
+```
+  German: deu
+  Dutch: dut
+  English: eng
+  Esperanto: epo
+  Finnish: fin
+  French: fra
+  Greek: gre
+  Indonesian: ind
+  Italian: ita
+  Japanese: jpn (Try jpn2 if jpn doesn't work)
+  Korean: kor
+  Norwegian: nor
+  Polish: pol
+  Portuguese (Brazil): ptb
+  Russian: rus
+  Spanish: spa
+  Croatian: srb
+  Serbian: srp
+  Thai: tha
+  Turkish: tur
+  Ukranian: ukr
+  Vietnamese: vie
+  Chinese (Simplified): zhs
+  Chinese (Traditional): zht
+```
+
+
+# Sharing Localization
+
+Publish your language files and notify me via the workshop page. I'll include your files to the main mod.
 

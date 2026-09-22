@@ -1,9 +1,7 @@
-Language files for these Slay the Spire mods:
-  
-- Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
-- Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
-- Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
-- Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
+Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
+Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
+Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
+Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
 
 You can localize any of these mods by translating Card-Strings.json, Keyword-Strings.json and Power-Strings.json.
 
@@ -84,7 +82,7 @@ Power tooltips use different symbols from card descriptions:
 ```
 #y: A word prefixed with this symbol is colored yellow. Mainly for keywords.
 
-#b: Colors a word blue. Often placed at the end of a string so the number that follows is blue.
+#b: Colors a word blue. Often placed at the end of a string so the number that follows becomes blue.
 ```
 
 
@@ -125,5 +123,5 @@ Language code:
 
 # Sharing Localization
 
-Publish your language files and notify me via the workshop page. I'll include your files to the main mod.
+Publish your language files and notify me via the workshop page. I'll add your files to the main mod.
 

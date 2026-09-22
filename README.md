@@ -1,9 +1,12 @@
-‐ Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
-‐ Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
-‐ Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
-‐ Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
+Red: https://steamcommunity.com/sharedfiles/filedetails/?id=3032112884
 
-You can localize any of these mods by translating Card-Strings.json, Keyword-Strings.json and Power-Strings.json.
+Green: https://steamcommunity.com/sharedfiles/filedetails/?id=3219969350
+
+Blue: https://steamcommunity.com/sharedfiles/filedetails/?id=2970853759
+
+Purple: https://steamcommunity.com/sharedfiles/filedetails/?id=3342218134
+
+You can localize these mods by translating the files shared here.
 
 Localization can be applied locally, or shared if you show it to me.
 
